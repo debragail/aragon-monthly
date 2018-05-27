@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Tangerine:700');
+@import url('https://fonts.googleapis.com/css?family=Overpass');
+
+.md-typeset {
+  font-size: 1.8rem;
+}
 
 [data-md-color-primary="grey"] .md-header {
   background-color: #fff;
@@ -28,13 +32,14 @@
 .md-typeset h1#aragon-monthly {
   color: rgba(0, 0, 0, 1);
   font-size: 8rem;
-  font-family: 'Tangerine', cursive;
+  font-family: 'Overpass', sans-serif;
   text-align: center;
   margin-top: -4rem;
   margin-bottom: -2.5rem;
 }
 
-.md-content__inner.md-typeset h5 {
+.md-content__inner.md-typeset h4 {
+  color: rgba(0, 0, 0, 0.5);
   text-align: center;
   margin-top: 2rem;
   margin-bottom: -2.5rem;
@@ -109,7 +114,7 @@
 }
 
 .md-typeset table:not([class]) tr:nth-child(5) a:hover {
-  color: rgba(32, 172, 163, 0.8);
+  color: rgba(9, 186, 213, 0.8);
 }
 
 .md-typeset table:not([class]) tr:nth-child(3) em a {
@@ -117,12 +122,21 @@
   font-size: 1.2rem;
 }
 
+.md-typeset table:not([class]) tr:nth-child(3) em {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1.4rem;
+}
+
 .md-typeset table:not([class]) tr:nth-child(3) em a:hover {
-  color: rgba(32, 172, 163, 0.8);
+  color: rgba(9, 186, 213, 0.8);
 }
 
 .md-typeset table:not([class]) tr:nth-child(3) td {
   color: rgba(0, 0, 0, 0.5);
+}
+
+.md-typeset table:not([class]) tr:nth-child(4) td {
+  font-size: 1.6rem;
 }
 
 .md-typeset table:not([class]) td img {
@@ -164,9 +178,82 @@
 }
 
 .md-typeset table:not([class]) tr:nth-child(4) a:hover {
-  color: rgba(32, 172, 163, 0.8);
+  color: rgba(9, 186, 213, 0.8);
 }
 
 .md-typeset iframe, .md-typeset img, .md-typeset svg {
   max-width: 50rem;
+}
+
+.md-typeset table:not([class]) td {
+  font-size: 1.8rem;
+}
+
+[title="Project info"] {
+  color: hsla(0, 0%, 100%, 0.5);
+}
+
+[title="Guides"] {
+  color: hsla(0, 0%, 100%, 0.5);
+}
+
+h2#recent-news a {
+  color: #000;
+  text-decoration: underline;
+  font-size: 4rem;
+  padding: 5px;
+}
+
+h2#recent-news a:hover {
+  color: rgba(9, 186, 213, 0.8);
+}
+
+h2#recent-articles a {
+  color: #000;
+  text-decoration: underline;
+  font-size: 4rem;
+  padding: 5px;
+}
+
+h2#recent-articles a:hover {
+  color: rgba(9, 186, 213, 0.8);
+}
+
+h2#recent-classifieds a {
+  color: #000;
+  text-decoration: underline;
+  font-size: 4rem;
+  padding: 5px;
+}
+
+h2#recent-classifieds a:hover {
+  color: rgba(9, 186, 213, 0.8);
+}
+
+h6#browse-more-news a {
+  color: rgba(9, 186, 213, 1);
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+h6#browse-more-news a:hover {
+  color: #000;
+}
+
+h6#browse-more-articles a:hover {
+  color: #000;
+}
+
+h6#browse-more-articles a {
+  color: rgba(9, 186, 213, 0.8);
+  font-size: 3rem;
+}
+
+h6#browse-more-classifieds a:hover {
+  color: #000;
+}
+
+h6#browse-more-classifieds a {
+  color: rgba(9, 186, 213, 0.8);
+  font-size: 3rem;
 }

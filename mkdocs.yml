@@ -6,7 +6,9 @@ site_description: 'Aragon Monthly, a community curated monthly digital newspaper
 theme:     'material'
 site_favicon: 'images/favicon.ico'
 extra_css:
-  - 'stylesheets/extra.css'
+  - 'stylesheets/monthly.css'
+extra_javascript:
+  - 'javascript/extra_js.js'
 extra:
   palette:
     primary: 'grey'
@@ -34,14 +36,14 @@ pages:
     - Home: 'news/index.md'
     - DAOs: 'news/daos.md'
     - Aragon: 'news/aragon.md'
-    - district0x: 'news/district0x.md'
     - Ecosystem: 'news/ecosystem.md'
+    - Governance: 'news/governance.md'
   - Articles:
     - Home: 'articles/index.md'
     - Editorials:
-      - The district0x network in a nutshell: 'articles/editorial/the_district0x_in_a_nutshell.md'
+      - Submit an Article!: 'guides/guide_for_submitting_articles.md'
     - Opinion pieces:
-      - Thoughts On Governance and Network Effects: 'articles/opinion/thoughts_on_governance_network_effects.md'
+      - Submit an Article!: 'guides/guide_for_submitting_articles.md'
     - Columns:
       - Start a Column!: 'articles/columns/submit.md'
   - Classifieds:
@@ -51,3 +53,66 @@ pages:
     - Editors: 'contributors/editors.md'
     - Reviewers: 'contributors/reviewers.md'
     - Contributors: 'contributors/contributors.md'
+    - Columnists: 'contributors/columnists.md'
+  - Newsletter:
+    - Aragon Monthly Newsletter: 'newsletter/index.md'
+  - Project info:
+    - Overview: 'info/index.md'
+  - Guides:
+    - Overview: 'guides/index.md'
+    - Guide for submitting a new Issue: 'guides/guide_for_submitting_a_new_issue.md'
+    - Guide for submitting a new Pull Request: 'guides/guide_for_submitting_a_new_pull_request.md'
+    - Guide for submitting News: 'guides/guide_for_submitting_news.md'
+    - Guide for submitting Articles: 'guides/guide_for_submitting_articles.md'
+    - Guide for submitting Classifieds: 'guides/guide_for_submitting_classifieds.md'
+    - New Issue Template: 'guides/new_issue_template.md'
+    - New Pull Request Template: 'guides/new_pull_request_template.md'
+    - Repository structure: 'guides/repository_structure.md'
+  - Archive:
+    - Archive: 'archive/index.md'
+    - Issue 01:
+      - Front Page: 'archive/issue01/index.md'
+      - News:
+        - Home: 'archive/issue01/news/index.md'
+        - DAOs: 'archive/issue01/news/daos.md'
+        - Aragon: 'archive/issue01/news/aragon.md'
+        - district0x: 'archive/issue01/news/district0x.md'
+        - Ecosystem: 'archive/issue01/news/ecosystem.md'
+      - Articles:
+        - Home: 'archive/issue01/articles/index.md'
+        - Editorials:
+          - The district0x network in a nutshell: 'archive/issue01/articles/editorial/the_district0x_in_a_nutshell.md'
+        - Opinion pieces:
+          - TCRs - The Curation Protocol That Separates the Wheat from the Chaff: 'archive/issue01/articles/opinion/TCRs_Separating_the_Wheat_from_the_Chaf.md'
+          - How can Aragon create a fairer world?: 'archive/issue01/articles/opinion/how_aragon_create_a_fairer_world.md'
+          - Thoughts On Governance and Network Effects: 'archive/issue01/articles/opinion/thoughts_on_governance_network_effects.md'
+        - Columns:
+          - Start a Column!: 'archive/issue01/articles/columns/submit.md'
+      - Classifieds:
+        - Home: 'archive/issue01/classifieds/index.md'
+      - Contributors:
+        - Home: 'archive/issue01/contributors/index.md'
+        - Editors: 'archive/issue01/contributors/editors.md'
+        - Reviewers: 'archive/issue01/contributors/reviewers.md'
+        - Contributors: 'archive/issue01/contributors/contributors.md'
+        - Columnists: 'archive/issue01/contributors/columnists.md'
+    - Issue 02:
+      - Front Page: 'archive/issue02/index.md'
+      - News:
+        - Home: 'archive/issue02/news/index.md'
+        - DAOs: 'archive/issue02/news/daos.md'
+        - Aragon: 'archive/issue02/news/aragon.md'
+        - district0x: 'archive/issue02/news/governance.md'
+        - Ecosystem: 'archive/issue02/news/ecosystem.md'
+      - Articles:
+        - Home: 'archive/issue02/articles/index.md'
+        - Columns:
+          - Start a Column!: 'archive/issue02/articles/columns/submit.md'
+      - Classifieds:
+        - Home: 'archive/issue02/classifieds/index.md'
+      - Contributors:
+        - Home: 'archive/issue02/contributors/index.md'
+        - Editors: 'archive/issue02/contributors/editors.md'
+        - Reviewers: 'archive/issue02/contributors/reviewers.md'
+        - Contributors: 'archive/issue02/contributors/contributors.md'
+        - Columnists: 'archive/issue02/contributors/columnists.md'

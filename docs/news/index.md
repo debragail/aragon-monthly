@@ -17,4 +17,16 @@ _Author [Author Name](URI_to_author_profile) on Month Date#_ |
 | | |  
 | | |  
 
+<<<<<<< HEAD
+=======
+| | |  
+:-----------:|:-----------:|:-----------:|  
+| | |  
+| | |  
+| | |  
+| | |  
+| | |  
+
+
+>>>>>>> upstream/master
 ## [Submit News!](../guides/guide_for_submitting_news.md)
